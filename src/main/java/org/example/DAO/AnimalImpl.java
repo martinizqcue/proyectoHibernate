@@ -105,11 +105,10 @@ public class AnimalImpl implements AnimalDAO {
     }
 
     /**
-     * Asigna un animal a una familia.
      *
-     * @param familia Objeto Familia que acogerá al animal.
-     * @param id      ID del animal a actualizar.
-     * @return El Animal actualizado.
+     * @param familia
+     * @param id
+     * @return
      */
     @Override
     public Animal update(Familia familia, Integer id) {
