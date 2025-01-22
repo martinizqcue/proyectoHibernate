@@ -131,6 +131,7 @@ public class AnimalImpl implements AnimalDAO {
 
 
                 session.update(animal);
+                session.flush(); //Asegura que los cambios se escriban inmediatamente
                 transaction.commit();
             }
 
